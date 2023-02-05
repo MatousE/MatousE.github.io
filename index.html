@@ -12,8 +12,7 @@
 <!--  <link rel="stylesheet" href="prism/prism.css">-->
   <link rel="stylesheet" href="https://latex.now.sh/style.css">
   <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
-
-
+  <link rel="icon" href="imgs/me.png">
 </head>
 
 <style>
@@ -25,11 +24,13 @@
 .center-fig-caption {
   text-align: center;
 }
+
+
 </style>
 
 <body class="libertinus latex-dark">
   <header>
-    <h1>Matouš Elphick</h1>
+    <h1>Matouš Elphick <a onclick="play()"><img src="imgs/sound.png" alt="sound-img" style="height:20px" class="center"></a> </h1>
   </header>
   <figure>
     <img src="imgs/me.png" alt="matous-img" style="height:200px" class="center">
@@ -41,7 +42,6 @@
     <ol>
       <li><a href="#about-me">About Me</a></li>
       <li><a href="#speaking">Speaking</a></li>
-      <li><a href="#fav-papers">Favourite Recent Papers I've Read</a></li>
       <li><a href="#cv">Curriculum Vitae</a></li>
       <li><a href="#contact">Contact Details</a></li>
     </ol>
@@ -65,47 +65,12 @@
       <p><b>The Society of Electron Microscope Technology (SEMT) 2022: RMS Early Career Speakers' Competition</b></p>
       <p>I had the pleasure of taking part in the RMS Early Career Speakers' Competition which took place at the amazing
         Natural History Museum. Here I presented my research on automating the targeted analysis of mitochondrial cristae
-        in volumen electron microscopy images using random forests, a machine learning technique
+        in volumen electron microscopy images using random forests.
       </p>
       <figure>
         <img src="imgs/rms-image.jpg" alt="rms-image" style="width:400px" class="center">
         <figcaption class="center-fig-caption"> Image by Lucy Collinson</figcaption>
       </figure>
-    </article>
-    <article>
-      <h2 id="fav-papers">Favourite Recent Papers I've Read</h2>
-      <div><hr></div>
-      <p>
-      <b>1)</b> SplineDist is an amazing instance segmentation CNN, built on the principles of StarDist whereby
-       StarDist defines objects as star-convex polygons. SplineDist on the other hand employs a more flexible
-       representation using splines, which can be defined as function defined piecewise by polynomials.
-      </p>
-      <p>
-       <b>2)</b> UTAG is a technique constructed for unsupervised discovery of tissue architecture with graphs.
-       This technique was consistently able to detect higher-level architectures in human tissues and
-       quantify structural differences between healthy and diseased tissues.
-      </p>
-
-
-<!--      <ol>-->
-<!--      <li>-->
-<!--        S. Mandal and V. Uhlmann, "Splinedist: Automated Cell Segmentation With Spline Curves," 2021 IEEE 18th-->
-<!--        International Symposium on Biomedical Imaging (ISBI), Nice, France, 2021, pp. 1082-1086, doi: 10.1109/ISBI48211.2021.9433928.-->
-<!--      </li>-->
-<!--      <li>-->
-<!--        Kim, J., Rustam, S., Mosquera, J.M. et al. Unsupervised discovery of tissue architecture in multiplexed-->
-<!--        imaging. Nat Methods 19, 1653–1661 (2022). https://doi.org/10.1038/s41592-022-01657-2-->
-<!--      </li>-->
-<!--      </ol>-->
-      <div class="footnote">
-        <p id="fn1">S. Mandal and V. Uhlmann, "Splinedist: Automated Cell Segmentation With Spline Curves," 2021 IEEE 18th
-          International Symposium on Biomedical Imaging (ISBI), Nice, France, 2021, pp. 1082-1086, doi: 10.1109/ISBI48211.2021.9433928.
-        </p>
-        <p>Kim, J., Rustam, S., Mosquera, J.M. et al. Unsupervised discovery of tissue architecture in multiplexed
-        imaging. Nat Methods 19, 1653–1661 (2022). https://doi.org/10.1038/s41592-022-01657-2
-        </p>
-      </div>
-
     </article>
     <article>
       <h2 id="cv">Curriculum Vitae</h2>
@@ -134,5 +99,13 @@
     </article>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }</script>
+  <audio id="audio" src="audio/pronunciation_cs_matouš.mp3"></audio>
+
 </body>
 </html>
