@@ -6,79 +6,122 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="4XeP6zYku6rEUM7FCKJY0yTaLLFG2t-lHFrC0kC5wIY" />
-  <title>Matouš Elphick</title>
+  <title>Matouš Elphick | MatousE.github.io</title>
   <meta name="description" content="Website about Matouš Elphick">
-
+  <meta name="keywords" content="Matouš Elphick,Matouš,Elphick,Crick">
 <!--  <link rel="stylesheet" href="prism/prism.css">-->
   <link rel="stylesheet" href="https://latex.now.sh/style.css">
+  <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
+
 
 </head>
 
-<body>
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-fig-caption {
+  text-align: center;
+}
+</style>
+
+<body class="libertinus latex-dark">
   <header>
     <h1>Matouš Elphick</h1>
   </header>
   <figure>
-    <img src="imgs/me.jpg" alt="matous-img" style="height:150px">
-
+    <img src="imgs/me.png" alt="matous-img" style="height:200px" class="center">
   </figure>
   <nav role="navigation" class="toc">
     <h2>Contents</h2>
+    <div><hr></div>
+
     <ol>
       <li><a href="#about-me">About Me</a></li>
+      <li><a href="#speaking">Speaking</a></li>
+      <li><a href="#fav-papers">Favourite Recent Papers I've Read</a></li>
+      <li><a href="#cv">Curriculum Vitae</a></li>
       <li><a href="#contact">Contact Details</a></li>
-
-<!--      <li>-->
-<!--        <a href="#research">Research</a>-->
-<!--        <ol>-->
-<!--          <li>-->
-<!--            <a href="#research-etch-a-cell">Etch-a-cell</a>-->
-<!--          </li>-->
-<!--          <li>-->
-<!--            <a href="#research-intraseg">napari-intraseg</a>-->
-<!--          </li>-->
-<!--        </ol>-->
-<!--      </li>-->
-<!--      <li><a href="#cv">CV</a></li>-->
     </ol>
   </nav>
   <main>
     <article>
       <h2 id="about-me">About Me</h2>
-      <p> I'm an undergraduate student at Newcastle University studying
-        Computer Science (with an Industrial Placement) BSc. As part of my course
-        I'm currently undergoing a year-long placement at the Francis Crick Institute
-        in London in the Electron Microscopy Science Technology Platform. I am passionate
-        about applying computer science to the field of Biology.
-        Most recently this has been in the form of Bioimage Analysis where I am currently creating
-        new techniques to automate the task of segmenting biological structures in volume
-        electron microscopy data.
-      </p>
-      <p>
-        Originally from Bromley, South London I'm a life-long Crystal Palace fan and am a season ticket
-        holder.
+      <div><hr></div>
+      <p> I'm an undergraduate student currently in the third year of four-year B.Sc. degree in <i>Computer Science
+        with an Industrial Placement</i> at Newcastle University. As part of my course I'm doing a year-long
+        research placement in the group of Dr. Lucy Collinson at the Francis Crick Institute, working under
+        the supervision of Dr. Martin Jones in the development of bioimage analysis plugins for napari that
+        use machine learning techniques to automate the targeted analysis and segmentation of mitochondrial
+        cristae in volume electron microscopy images. Currently interested in bioimage analysis and it's applications
+        in Cancer research in the exploration of the tumour microenvironemt.
       </p>
     </article>
-<!--    <article>-->
-<!--      <h2 id="research">Research</h2>-->
-<!--      <h3 id="research-etch-a-cell">Etch-A-Cell</h3>-->
-<!--    </article>-->
-<!--    <article>-->
-<!--      <h2 id="cv">CV</h2>-->
-<!--    </article>-->
-<!--    <article>-->
-<!--      <h2 id="twitter">Twitter</h2>-->
-
-<!--      <a class="twitter-timeline" href="https://twitter.com/matous_elphick?ref_src=twsrc%5Etfw">Tweets by matous_elphick</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-<!--    </article>-->
     <article>
-      <h2 id="contact">Contact Details</h2>
+      <h2 id="speaking">Speaking</h2>
+      <div><hr></div>
+      <p><b>The Society of Electron Microscope Technology (SEMT) 2022: RMS Early Career Speakers' Competition</b></p>
+      <p>I had the pleasure of taking part in the RMS Early Career Speakers' Competition which took place at the amazing
+        Natural History Museum. Here I presented my research on automating the targeted analysis of mitochondrial cristae
+        in volumen electron microscopy images using random forests, a machine learning technique
+      </p>
+      <figure>
+        <img src="imgs/rms-image.jpg" alt="rms-image" style="width:400px" class="center">
+        <figcaption class="center-fig-caption"> Image by Lucy Collinson</figcaption>
+      </figure>
+    </article>
+    <article>
+      <h2 id="fav-papers">Favourite Recent Papers I've Read</h2>
+      <div><hr></div>
+      <p>
+      <b>1)</b> SplineDist is an amazing instance segmentation CNN, built on the principles of StarDist whereby
+       StarDist defines objects as star-convex polygons. SplineDist on the other hand employs a more flexible
+       representation using splines, which can be defined as function defined piecewise by polynomials.
+      </p>
+      <p>
+       <b>2)</b> UTAG is a technique constructed for unsupervised discovery of tissue architecture with graphs.
+       This technique was consistently able to detect higher-level architectures in human tissues and
+       quantify structural differences between healthy and diseased tissues.
+      </p>
+
+
+<!--      <ol>-->
+<!--      <li>-->
+<!--        S. Mandal and V. Uhlmann, "Splinedist: Automated Cell Segmentation With Spline Curves," 2021 IEEE 18th-->
+<!--        International Symposium on Biomedical Imaging (ISBI), Nice, France, 2021, pp. 1082-1086, doi: 10.1109/ISBI48211.2021.9433928.-->
+<!--      </li>-->
+<!--      <li>-->
+<!--        Kim, J., Rustam, S., Mosquera, J.M. et al. Unsupervised discovery of tissue architecture in multiplexed-->
+<!--        imaging. Nat Methods 19, 1653–1661 (2022). https://doi.org/10.1038/s41592-022-01657-2-->
+<!--      </li>-->
+<!--      </ol>-->
+      <div class="footnote">
+        <p id="fn1">S. Mandal and V. Uhlmann, "Splinedist: Automated Cell Segmentation With Spline Curves," 2021 IEEE 18th
+          International Symposium on Biomedical Imaging (ISBI), Nice, France, 2021, pp. 1082-1086, doi: 10.1109/ISBI48211.2021.9433928.
+        </p>
+        <p>Kim, J., Rustam, S., Mosquera, J.M. et al. Unsupervised discovery of tissue architecture in multiplexed
+        imaging. Nat Methods 19, 1653–1661 (2022). https://doi.org/10.1038/s41592-022-01657-2
+        </p>
+      </div>
+
+    </article>
+    <article>
+      <h2 id="cv">Curriculum Vitae</h2>
+      <div><hr></div>
+      <p>
+        <a href="https://MatousE.github.io/docs/Matouš Elphick CV - (2023).pdf" target="_blank">Link to CV</a>
+      </p>
+    </article>
+    <article>
+      <h2 id="contact">Contact Details </h2>
+      <div><hr></div>
       <p>
         Email: matous.elphick@crick.ac.uk
       </p>
       <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/matous-elphick/"> Matouš Elphick</a>
+        LinkedIn: <a href="https://www.linkedin.com/in/matous-elphick/"> Matouš Elphick</a>
       </p>
       <p>
         Twitter:
@@ -90,6 +133,6 @@
       </p>
     </article>
   </main>
-  <script src="js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
 </body>
 </html>
