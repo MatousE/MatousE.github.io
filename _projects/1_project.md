@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: CLEM-Reg
+description: An automated point cloud based registration algorithm for correlative light and volume electron microscopy
+img: clemreg_project_post.jpeg
 importance: 1
 category: work
 related_publications: true

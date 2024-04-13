@@ -12,7 +12,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: True # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I'm a final-year undergraduate student at Newcastle University studying Computer Science (with an Industrial Placement) BSc. 
