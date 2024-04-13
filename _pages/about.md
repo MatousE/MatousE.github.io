@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Visiting Student | The Francis Crick Institute | Newcastle University
 
 profile:
   align: right
