@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Visiting Student | The Francis Crick Institute | Newcastle University
+subtitle: Visiting Student | The Francis Crick Institute 
 
 profile:
   align: right
