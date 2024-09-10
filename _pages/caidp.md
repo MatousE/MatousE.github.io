@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: /caidp
+permalink: /caidp/
 navbar_fixed: 
 ---
 <html lang="en">
