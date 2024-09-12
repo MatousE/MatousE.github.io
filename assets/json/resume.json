@@ -17,15 +17,6 @@
   "work": [
     {
       "name": "Cancer Dynamics Lab, The Francis Crick Institute",
-      "position": "PhD Student",
-      "url": "https://www.crick.ac.uk/research/labs/samra-turajlic",
-      "startDate": "2024-10",
-      "endDate": "2028-10",
-      "summary": "Developing AI models for automatic analysis of the tumour microenvironment of clear cell renal cell carcinoma.",
-      "highlights": ["Artificial Intelligence", "Digital Pathology", "Medical Image Analysis", "Cancer"]
-    },
-    {
-      "name": "Cancer Dynamics Lab, The Francis Crick Institute",
       "position": "Research Placement Trainee",
       "url": "https://www.crick.ac.uk/research/labs/samra-turajlic",
       "startDate": "2023-07",
@@ -54,7 +45,15 @@
   ],
   "education": [
     {
-      "institution": "Newcastle University, Newcastle upon Tyne, United Kingdom",
+      "institution": "The Francis Crick Institute | The Institue for Cancer Research | Imperial College London",
+      "location": "London, UK",
+      "studyType": "PhD Student",
+      "url": "https://www.crick.ac.uk/research/labs/samra-turajlic",
+      "startDate": "2024",
+      "endDate": "2028"
+    },
+    {
+      "institution": "Newcastle University",
       "location": "Newcastle, UK",
       "url": "https://www.ncl.ac.uk/",
       "studyType": "BSc in Computer Science (with Industrial Placement)",
