@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /dpjc/
-navbar_fixed: 
+navbar_fixed: false
+nav: false
 title: CrAIC Digital Pathology Journal Club
 ---
 Welcome to the CrAIC Digital Pathology Journal Club! Our club gathers at the intersection of artificial intelligence and digital pathology, fostering 
