@@ -1,0 +1,77 @@
+---
+layout: none
+permalink: /dpjc/
+navbar_fixed: 
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CrAIC Digital Pathology Journal Club (DPJC)</title>
+    <link rel="stylesheet" href="https://latex.vercel.app/style.min.css"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+            color: #333;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        .description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="assets/img/caip-logo-psvg.png" alt="CrAIC DPJC Logo" class="logo" />
+            <h1>CrAIC Digital Pathology Journal Club (DPJC)</h1>
+        </div>
+
+        <!-- Description Section -->
+        <div class="description">
+            <p>Welcome to the CrAIC Digital Pathology Journal Club! Our club gathers at the intersection of artificial intelligence and digital pathology, fostering discussions around the latest research and innovations. Hosted by the Francis Crick Institute, we aim to bridge the gap between computational science and clinical applications, bringing together experts, researchers, and enthusiasts.</p>
+            <p>Join us for regular meetings, insightful discussions, and a collaborative environment where we explore new frontiers in AI and pathology.</p>
+        </div>
+        
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2024 CrAIC Digital Pathology Journal Club | Francis Crick Institute</p>
+        </div>
+    </div>
+</body>
+
+</html>
