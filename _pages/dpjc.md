@@ -1,21 +1,9 @@
 ---
-layout: none
+layout: page
 permalink: /dpjc/
 navbar_fixed: 
+title: CrAIC Digital Pathology Journal Club
 ---
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Metro UI -->
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Metro UI -->
-    <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
-  </body>
-</html>
+Welcome to the CrAIC Digital Pathology Journal Club! Our club gathers at the intersection of artificial intelligence and digital pathology, fostering 
+discussions around the latest research and innovations. Hosted by the Francis Crick Institute, we aim to bridge the gap between computational science 
+and clinical applications, bringing together experts, researchers, and enthusiasts.
